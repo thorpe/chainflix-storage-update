@@ -1,6 +1,4 @@
 # chainflix-storage-update
-chainflix-storage-update
-
 
 root@chainflix:/home# mkdir /home/chainflix
 ```
@@ -10,7 +8,6 @@ root@chainflix:/home# cd /home/chainflix
 ```
 root@chainflix:/home# wget sudo https://github.com/jampick-kr/chainflix-storage-update/raw/master/linux/release/latest/chainflix.linux.tar.gz
 ```
-https://github.com/jampick-kr/chainflix-storage-update/releases/download/v1.1.4/chainflix.linux.tar.gz
 Resolving github.com (github.com)... 15.164.81.167
 HTTP request sent, awaiting response... 200 OK
 Length: 20507613 (20M) [application/octet-stream]
