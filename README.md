@@ -1,5 +1,9 @@
 # chainflix-storage-update
 
+root@chainflix:/home# sudo su -
+```
+비밀번호 입력
+```
 root@chainflix:/home# mkdir /home/chainflix
 ```
 ```
@@ -20,11 +24,13 @@ root@chainflix:/home/chainflix# tar xvfzp chainflix.linux.tar.gz
 drwxr-xr-x 6  501 staff     4096 11월 13 14:43 ./
 drwxr-xr-x 3 root root      4096 11월 14 13:13 ../
 -rwxr-xr-x 1  501 staff 61694738 11월 13 14:43 chainflix*
--rwxr-xr-x 1  501 staff 61694738 11월 13 14:43 chainflix.linux.bin*
 drwxr-xr-x 2  501 staff     4096 11월 13 14:43 conf/
 drwxr-xr-x 2  501 staff     4096 11월 13 14:43 logs/
 drwxr-xr-x 2  501 staff     4096 11월 13 14:43 uploads/
 drwxr-xr-x 2  501 staff     4096 11월 13 14:43 videos/
+```
+root@chainflix:/home/chainflix# rm -rf chainflix.linux.tar.gz
+```
 ```
 root@chainflix:/home/chainflix# vi ./conf/config.json
 ```
@@ -46,7 +52,7 @@ root@chainflix:/home/chainflix# vi ./conf/config.json
   }
 }
 ```
-	위 storage_id와 api_key를 입력합니다. Size_max : 100이면 100G / 3000G = 3테라
+* 위 storage_id와 api_key를 입력합니다. Size_max : 100이면 100G / 3000G = 3테라
 
 root@chainflix:/home/chainflix#./chainflix start
 ```
