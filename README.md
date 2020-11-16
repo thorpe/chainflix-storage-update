@@ -4,6 +4,9 @@ root@chainflix:/home# sudo su -
 ```
 비밀번호 입력
 ```
+root@chainflix:/home# sudo apt-get install vim
+```
+```
 root@chainflix:/home# mkdir /home/chainflix
 ```
 ```
