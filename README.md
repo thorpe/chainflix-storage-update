@@ -57,7 +57,7 @@ root@chainflix:/home/chainflix# vi ./conf/config.json
 ```
 * 위 storage_id와 api_key를 입력합니다. Size_max : 100이면 100G / 3000G = 3테라
 
-root@chainflix:/home/chainflix#./chainflix start
+root@chainflix:/home/chainflix# sudo ./chainflix start
 ```
 2020-06-09 14:46:58 info: Daemon Starts ..................
 2020-06-09 14:46:58 info: Content Count: 0
