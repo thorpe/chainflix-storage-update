@@ -24,17 +24,39 @@ chainflix.linux.tar.gz                          100%[===========================
 ```
 root@chainflix:/home/chainflix# tar xvfzp chainflix.linux.tar.gz
 ```
-drwxr-xr-x 6  501 staff     4096 11월 13 14:43 ./
-drwxr-xr-x 3 root root      4096 11월 14 13:13 ../
--rwxr-xr-x 1  501 staff 61694738 11월 13 14:43 chainflix*
-drwxr-xr-x 2  501 staff     4096 11월 13 14:43 conf/
-drwxr-xr-x 2  501 staff     4096 11월 13 14:43 logs/
-drwxr-xr-x 2  501 staff     4096 11월 13 14:43 uploads/
-drwxr-xr-x 2  501 staff     4096 11월 13 14:43 videos/
+chainflix
+lib/
+lib/node_sqlite3.node
+lib/core.bin
 ```
 root@chainflix:/home/chainflix# rm -rf chainflix.linux.tar.gz
 ```
 ```
+root@chainflix:/home/chainflix# ./chainflix start
+```
+[LAUNCHER] task run
+[LAUNCHER] [APP] CHAINFLIX STORAGE START v1.1.8
+
+[LAUNCHER] [SERVER] HTTP SERVER START http://192.168.0.2:3001
+
+[LAUNCHER] [ST] Init Storage System
+[ST] File verification is Starting
+
+[LAUNCHER] [ST] File verification complete!
+
+[LAUNCHER] [ST] Video Count: 0
+[ST] Size Available 100.00 GB
+
+[LAUNCHER] [SOCKET] Connected a Storage Controller https://sc-socket.chainflix.net
+
+[LAUNCHER] [SOCKET] Storage Id
+
+[LAUNCHER] [SOCKET] login fail Required parameters: storage_id,api_key
+
+[LAUNCHER] [SOCKET] Storage Disconnect undefined
+컨트롤-x 또는 컨트롤-x를 눌러 빠져나온다.
+```
+
 root@chainflix:/home/chainflix# vi ./conf/config.json
 ```
 {
