@@ -54,7 +54,7 @@ root@chainflix:/home/chainflix# ./chainflix start
 [LAUNCHER] [SOCKET] login fail Required parameters: storage_id,api_key
 
 [LAUNCHER] [SOCKET] Storage Disconnect undefined
-컨트롤-x 또는 컨트롤-x를 눌러 빠져나온다.
+컨트롤-x 또는 컨트롤-c 눌러 빠져나온다.
 ```
 
 root@chainflix:/home/chainflix# vi ./conf/config.json
