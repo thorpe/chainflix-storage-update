@@ -13,7 +13,7 @@ root@chainflix:/home# mkdir /home/chainflix
 root@chainflix:/home# cd /home/chainflix
 ```
 ```
-root@chainflix:/home# wget sudo https://github.com/jampick-kr/chainflix-storage-update/releases/latest/download/chainflix.linux.tar.gz
+root@chainflix:/home# sudo wget https://github.com/jampick-kr/chainflix-storage-update/releases/latest/download/chainflix.linux.tar.gz
 ```
 Resolving github.com (github.com)... 15.164.81.167
 HTTP request sent, awaiting response... 200 OK
