@@ -112,7 +112,7 @@ root@chainflix:/home/chainflix# vi ./conf/config.json
     "throttle": 100000000
   },
   "storage": {
-    "controller_url": "http://beta-controller.chainflix.net:3002",
+    "controller_url": "https://beta-controller.chainflix.net:3002",
     "storage_id": "",
     "api_key": "",
     "size_max": 100,
@@ -125,9 +125,9 @@ root@chainflix:/home/chainflix# vi ./conf/config.json
 ```
 ##### 알림1 : 간혹 vi 입력시에 모드(읽기모드, 수정모드등등)을 요청하는 화면이 보이시면 수정모드(E)를 눌러 진입해주세요.
 ##### 알림2 : vi로 진입하셨으면 i = 쓰기모드(설정값을 넣을수 있는 상태) / :wq = 저장후 종료하기 입니다.
-##### 알림2 : i를 눌러 설정값을 수정할수 있는 상태이면 storage_id와 api_key는 chainflix.net 홈페이지에서 확인후 입력해주세요.
-##### 알림3 : Size_max : 100이면 100G / 3000G = 3테라 입니다.
-##### 알림4 : 하드디스크 2개로 서비스하실때 체인플릭스 저장위치를 다르게 하실경우 rootFolder / uploadPath 경로를 절대 경로로 잡아주세요.
+##### 알림3 : i를 눌러 설정값을 수정할수 있는 상태이면 storage_id와 api_key는 chainflix.net 홈페이지에서 확인후 입력해주세요.
+##### 알림4 : Size_max : 100이면 100G / 3000G = 3테라 입니다.
+##### 알림5 : 하드디스크 2개로 서비스하실때 체인플릭스 저장위치를 다르게 하실경우 rootFolder / uploadPath 경로를 절대 경로로 잡아주세요.
 
 <hr>
 
