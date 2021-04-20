@@ -98,7 +98,7 @@ root@chainflix:/home/chainflix# ./chainflix start
 .
 ```
 ##### 알림1 : 컨트롤-x 또는 컨트롤-c 눌러 빠져나옵니다..
-##### 알림2 : 설치 폴더아래 conf 폴더 생성, config.json 파일이 생성어 있어야 합니다.
+##### 알림2 : 설치 폴더아래 conf 폴더 생성, config.json 파일이 생성되어 있어야 합니다.
 
 <hr>
 
