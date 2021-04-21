@@ -112,7 +112,7 @@ root@chainflix:/home/chainflix# vi ./conf/config.json
     "throttle": 100000000
   },
   "storage": {
-    "controller_url": "https://beta-controller.chainflix.net:3002",
+    "controller_url": "https://sc-socket.chainflix.net",
     "storage_id": "",
     "api_key": "",
     "size_max": 100,
@@ -143,5 +143,27 @@ root@chainflix:/home/chainflix# sudo ./chainflix start
 ```
 ##### 알림1 : 실행을 성공적으로 하셨다면 포트포워딩 부분을 진행해주세요.
 
+<hr>
+<hr>
+
+#정상 작동 여부 확인
+### 체크포인트 #1 sudo ./chainflix start 한 후 프로그램이 정상적으로 작동중인가?
+인터넷 브라우저를 열어서 http://localhost:3001 또는 컴퓨터 private ip http://192.168.*.*:3001 를 접속해세요. 
+```
+[정상적이지 안을때 아래 상황을 체크해주세요.]
+config.json에 설정디 파일을 다시한번 확인해보세요.
+sudo ./chainflix start를 한 후 터미널이 닫혀있는지 확인해주세요.
+```
 
 <hr>
+### 체크포인트 #2 포트포워딩이 정상적으로 작동했는가?
+인터넷 브라우저를 열어서 http://***.***.***.***:3001.
+```
+[정상적이지 안을때 아래 상황을 체크해주세요.]
+public ip를 아는 방법은 네이버 똔느 구글에 "내 아이피 주소"를 검색 하면 자신의 공인아이피주소가 나오빈다.
+만약 내 아이피 주소가 : 111.111.222.111 라면
+
+http://111.111.222.111:3001를 브라우저에 요청해보세요. 화면이 안뜨시면 공유기 설정이 잘못되어있습니다.
+공유기 확인을 다시한번 확인해보세요.
+
+```
