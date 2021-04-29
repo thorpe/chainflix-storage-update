@@ -112,7 +112,6 @@ root@chainflix:/home/chainflix# vi ./conf/config.json
     "throttle": 100000000
   },
   "storage": {
-    "controller_url": "https://sc-socket.chainflix.net",
     "storage_id": "",
     "api_key": "",
     "size_max": 100,
